@@ -1,0 +1,90 @@
+Assignment
+
+Name: Pandas Assignment: Titanic Survival Analysis
+
+🎯 Goal : Clean and analyze the Titanic dataset to understand what factors influenced survival.
+
+📊 Dataset
+train.csv from Kaggle's Titanic dataset
+Link: https://www.kaggle.com/datasets/yasserh/titanic-dataset
+
+
+📌 Part 1: Load & Inspect 
+
+Tasks: 
+1. Display first 5 rows 
+2. Display last 5 rows 
+3. Show shape, column names, and data types
+
+Questions: 
+How many rows and columns?
+Which columns are categorical?
+
+🧹 Part 2: Clean Data 
+
+Tasks: 
+1. Check missing values 
+2. Fill Age with mean
+3. Fill Embarked with mode
+4. Drop Cabin column
+5. Convert Sex to numeric (male=0, female=1)
+
+Questions: 
+Which column had most missing values?
+Why drop Cabin?
+
+
+🔄 Part 3: Create New Features 
+
+Tasks: 
+1. Create FamilySize = SibSp + Parch
+2. Create IsAlone = 1 if FamilySize = 0 else 0
+3. Extract Title from Name (Mr, Mrs, Miss, etc.)
+
+Questions: 
+What does FamilySize tell us?
+How many passengers were alone?
+
+
+
+📊 Part 4: Explore Data 
+
+Tasks:
+1. Survival count 
+2. Survival rate by gender
+3. Survival rate by passenger class
+4. Average age of survivors vs non-survivors
+
+Questions: 
+Which gender survived more?
+Which class had highest survival?
+Does age affect survival?
+
+
+📈 Part 5: Advanced Analysis 
+
+Tasks: 
+1. Find correlation between numeric features
+2. Find top 5 oldest passengers
+3. Find passenger with highest fare
+
+Questions: 
+Which feature correlates most with survival?
+Does higher fare mean higher survival?
+
+
+✅ Part 6: Save & Submit
+
+Tasks: 
+1. Display cleaned dataset (first 10 rows)
+2. Submit the notebook link.
+
+
+💡 Bonus (Optional)
+
+Create charts:
+Bar chart of survival count
+Histogram of age distribution
+
+
+Submit:  Notebook Link
