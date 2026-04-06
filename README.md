@@ -11,8 +11,15 @@ Assignment Target :
 4. Prepare data for machine learning
 
 Data Source link : Kaggle : https://www.kaggle.com/datasets/yasserh/titanic-dataset
-CSV File included separetly. check data.csv file. 
+
+CSV File included separetly. check Titanic-Dataset.csv
+
+Google Sheet: https://docs.google.com/spreadsheets/d/1-EIuMtCdCY_tmQuTzLcKs602DOfLJ-Xm64nmNFw_s9w/edit?gid=184329618#gid=184329618
+
+Work File : Titanic_Survival_Analysis.ipynb
 
 Used Tools : Google Sheet and Colab
+
+
 
 
